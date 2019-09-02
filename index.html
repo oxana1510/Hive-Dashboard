@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+	<meta name="format-detection" content="telephone=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>Hive Dashboard</title>
+	<link rel="stylesheet" href="css/style.css">
+  <script src="scripts/svgxuse.min.js"></script>
+</head>
+<body>
+<div class="wrapper">
+	<header class="header">
+		<div class="logo">
+      <div><img src="img/logo.png" alt="Helios"></div>
+      <h1>Hive Dashboard</h1>
+    </div>
+		<button>
+      <svg width="20" height="21"><use  viewBox="0 0 20 21" href="img/management.svg#management"/></svg>
+			<span>Management</span>
+		</button>
+	</header>
+	<main class="main">
+		<nav class="nav">
+			<div class="icon-close">
+		        <span></span><span></span>
+		      </div>
+      <form class="form-search">
+        <label for="search">Search</label>
+        <input type="text" id="search" class="search">
+        <input type="submit" value class="submit">
+      </form>
+      <span class="location">Location</span>
+			<ul class="menu">
+				<li class="sub-menu"><a href="#USA">USA</a>
+          <ul>
+            <li class="sub-menu"><a href="#EastCoast">East Coast</a>
+              <ul>
+                <li class="sub-menu"><a href="#Florida">Florida</a>
+                    <ul>
+                      <li>
+                        <a href="#Florida" class="active">Miami</a>
+                      </li>
+                      <li>
+                        <a href="#Florida">Orlando</a>
+                      </li>
+                      <li>
+                        <a href="#Florida">Jacksonville</a>
+                      </li>
+                      <li>
+                        <a href="#Florida">Tampa</a>
+                      </li>
+                    </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+
+        </li>
+
+			</ul>
+		</nav>
+    <div class="icon-menu">
+     <span></span><span></span><span></span>
+    </div>
+
+		<div class="page">
+      <div class="button">
+        <a href="#" >Manage All Hives</a>
+      </div>
+      <div class="page-container">
+        <div class="listen-block">
+
+          <div class="listen-block__item" style="border-top-color: #84c441;">
+            <div class="top">
+              <span>Online</span>
+              <span class="sound"><svg fill="#84c441" width="18" height="17"><use viewBox="0 0 18 17" href="img/sound.svg#sound"/></svg></span>
+            </div>
+            <div class="icon">
+              <img src="img/icon-sound-blue.svg" alt="Zachary Johnson" width="49" height="49">
+            </div>
+            <h2>Zachary Johnson</h2>
+          </div>  
+
+          <div class="listen-block__item" style="border-top-color: #cfcfcf;">
+            <div class="top">
+              <span>Offline</span>
+              <span class="sound"><svg fill="#cfcfcf" width="18" height="17"><use viewBox="0 0 18 17" href="img/sound.svg#sound"/></svg></span>
+            </div>
+            <div class="icon">
+              <img src="img/icon-sound-gray.svg" alt="Jadkin Conf Room" width="49" height="49">
+            </div>
+            <h2>Jadkin Conf Room</h2>
+          </div> 
+
+          <div class="listen-block__item" style="border-top-color: #efda77;">
+            <div class="top">
+              <span>In-use</span>
+              <span class="sound"><svg fill="#efda77" width="18" height="17"><use viewBox="0 0 18 17" href="img/sound.svg#sound"/></svg></span>
+            </div>
+            <div class="icon">
+              <img src="img/icon-arrow-play.svg" alt="Ws LG Conf Rep" width="49" height="49">
+            </div>
+            <h2>Ws LG Conf Rep</h2>
+          </div> 
+
+          <div class="listen-block__item" style="border-top-color: #84c441;">
+            <div class="top">
+              <span>Online</span>
+              <span class="sound"><svg fill="#84c441" width="18" height="17"><use viewBox="0 0 18 17" href="img/sound.svg#sound"/></svg></span>
+            </div>
+            <div class="icon">
+              <img src="img/icon-sound-blue.svg" alt="Wod Conf Room" width="49" height="49">
+            </div>
+            <h2>Wod Conf Room</h2>
+          </div>
+
+          <div class="listen-block__item" style="border-top-color: #cfcfcf;">
+            <div class="top">
+              <span>Offline</span>
+              <span class="sound"><svg fill="#cfcfcf" width="18" height="17"><use viewBox="0 0 18 17" href="img/sound.svg#sound"/></svg></span>
+            </div>
+            <div class="icon">
+              <img src="img/icon-sound-gray.svg" alt="Wod Conf Room" width="49" height="49">
+            </div>
+            <h2>Wod Conf Room</h2>
+          </div>
+
+          <div class="listen-block__item" style="border-top-color: #84c441;">
+            <div class="top">
+              <span>Online</span>
+              <span class="sound"><svg fill="#84c441" width="18" height="17"><use viewBox="0 0 18 17" href="img/sound.svg#sound"/></svg></span>
+            </div>
+            <div class="icon">
+              <img src="img/icon-sound-blue.svg" alt="Zachary Johnson" width="49" height="49">
+            </div>
+            <h2>Zachary Johnson</h2>
+          </div>
+
+          <div class="listen-block__item" style="border-top-color: #efda77;">
+            <div class="top">
+              <span>In-use</span>
+              <span class="sound"><svg fill="#efda77" width="18" height="17"><use viewBox="0 0 18 17" href="img/sound.svg#sound"/></svg></span>
+            </div>
+            <div class="icon">
+              <img src="img/icon-arrow-play.svg" alt="Ws LG Conf Rep" width="49" height="49">
+            </div>
+            <h2>Ws LG Conf Rep</h2>
+          </div> 
+
+          <div class="listen-block__item" style="border-top-color: #cfcfcf;">
+            <div class="top">
+              <span>Offline</span>
+              <span class="sound"><svg fill="#cfcfcf" width="18" height="17"><use viewBox="0 0 18 17" href="img/sound.svg#sound"/></svg></span>
+            </div>
+            <div class="icon">
+              <img src="img/icon-sound-gray.svg" alt="Jadkin Conf Room" width="49" height="49">
+            </div>
+            <h2>Jadkin Conf Room</h2>
+          </div>
+
+          <div class="listen-block__item" style="border-top-color: #84c441;">
+            <div class="top">
+              <span>Online</span>
+              <span class="sound"><svg fill="#84c441" width="18" height="17"><use viewBox="0 0 18 17" href="img/sound.svg#sound"/></svg></span>
+            </div>
+            <div class="icon">
+              <img src="img/icon-sound-blue.svg" alt="Wod Conf Room" width="49" height="49">
+            </div>
+            <h2>Wod Conf Room</h2>
+          </div>
+
+          <div class="listen-block__item" style="border-top-color: #cfcfcf;">
+            <div class="top">
+              <span>Offline</span>
+              <span class="sound"><svg fill="#cfcfcf" width="18" height="17"><use viewBox="0 0 18 17" href="img/sound.svg#sound"/></svg></span>
+            </div>
+            <div class="icon">
+              <img src="img/icon-sound-gray.svg" alt="Wod Conf Room" width="49" height="49">
+            </div>
+            <h2>Wod Conf Room</h2>
+          </div>
+
+           <div class="listen-block__item" style="border-top-color: #84c441;">
+            <div class="top">
+              <span>Online</span>
+              <span class="sound"><svg fill="#84c441" width="18" height="17"><use viewBox="0 0 18 17" href="img/sound.svg#sound"/></svg></span>
+            </div>
+            <div class="icon">
+              <img src="img/icon-sound-blue.svg" alt="Zachary Johnson" width="49" height="49">
+            </div>
+            <h2>Zachary Johnson</h2>
+          </div>  
+
+          <div class="listen-block__item" style="border-top-color: #cfcfcf;">
+            <div class="top">
+              <span>Offline</span>
+              <span class="sound"><svg fill="#cfcfcf" width="18" height="17"><use viewBox="0 0 18 17" href="img/sound.svg#sound"/></svg></span>
+            </div>
+            <div class="icon">
+              <img src="img/icon-sound-gray.svg" alt="Jadkin Conf Room" width="49" height="49">
+            </div>
+            <h2>Jadkin Conf Room</h2>
+          </div> 
+
+          <div class="listen-block__item" style="border-top-color: #efda77;">
+            <div class="top">
+              <span>In-use</span>
+              <span class="sound"><svg fill="#efda77" width="18" height="17"><use viewBox="0 0 18 17" href="img/sound.svg#sound"/></svg></span>
+            </div>
+            <div class="icon">
+              <img src="img/icon-arrow-play.svg" alt="Ws LG Conf Rep" width="49" height="49">
+            </div>
+            <h2>Ws LG Conf Rep</h2>
+          </div> 
+
+          <div class="listen-block__item" style="border-top-color: #84c441;">
+            <div class="top">
+              <span>Online</span>
+              <span class="sound"><svg fill="#84c441" width="18" height="17"><use viewBox="0 0 18 17" href="img/sound.svg#sound"/></svg></span>
+            </div>
+            <div class="icon">
+              <img src="img/icon-sound-blue.svg" alt="Wod Conf Room" width="49" height="49">
+            </div>
+            <h2>Wod Conf Room</h2>
+          </div>
+
+          <div class="listen-block__item" style="border-top-color: #cfcfcf;">
+            <div class="top">
+              <span>Offline</span>
+              <span class="sound"><svg fill="#cfcfcf" width="18" height="17"><use viewBox="0 0 18 17" href="img/sound.svg#sound"/></svg></span>
+            </div>
+            <div class="icon">
+              <img src="img/icon-sound-gray.svg" alt="Wod Conf Room" width="49" height="49">
+            </div>
+            <h2>Wod Conf Room</h2>
+          </div>
+
+           <div class="listen-block__item" style="border-top-color: #84c441;">
+            <div class="top">
+              <span>Online</span>
+              <span class="sound"><svg fill="#84c441" width="18" height="17"><use viewBox="0 0 18 17" href="img/sound.svg#sound"/></svg></span>
+            </div>
+            <div class="icon">
+              <img src="img/icon-sound-blue.svg" alt="Zachary Johnson" width="49" height="49">
+            </div>
+            <h2>Zachary Johnson</h2>
+          </div>  
+
+          <div class="listen-block__item" style="border-top-color: #cfcfcf;">
+            <div class="top">
+              <span>Offline</span>
+              <span class="sound"><svg fill="#cfcfcf" width="18" height="17"><use viewBox="0 0 18 17" href="img/sound.svg#sound"/></svg></span>
+            </div>
+            <div class="icon">
+              <img src="img/icon-sound-gray.svg" alt="Jadkin Conf Room" width="49" height="49">
+            </div>
+            <h2>Jadkin Conf Room</h2>
+          </div> 
+
+          <div class="listen-block__item" style="border-top-color: #efda77;">
+            <div class="top">
+              <span>In-use</span>
+              <span class="sound"><svg fill="#efda77" width="18" height="17"><use viewBox="0 0 18 17" href="img/sound.svg#sound"/></svg></span>
+            </div>
+            <div class="icon">
+              <img src="img/icon-arrow-play.svg" alt="Ws LG Conf Rep" width="49" height="49">
+            </div>
+            <h2>Ws LG Conf Rep</h2>
+          </div> 
+
+          <div class="listen-block__item" style="border-top-color: #84c441;">
+            <div class="top">
+              <span>Online</span>
+              <span class="sound"><svg fill="#84c441" width="18" height="17"><use viewBox="0 0 18 17" href="img/sound.svg#sound"/></svg></span>
+            </div>
+            <div class="icon">
+              <img src="img/icon-sound-blue.svg" alt="Wod Conf Room" width="49" height="49">
+            </div>
+            <h2>Wod Conf Room</h2>
+          </div>
+
+          <div class="listen-block__item" style="border-top-color: #cfcfcf;">
+            <div class="top">
+              <span>Offline</span>
+              <span class="sound"><svg fill="#cfcfcf" width="18" height="17"><use viewBox="0 0 18 17" href="img/sound.svg#sound"/></svg></span>
+            </div>
+            <div class="icon">
+              <img src="img/icon-sound-gray.svg" alt="Wod Conf Room" width="49" height="49">
+            </div>
+            <h2>Wod Conf Room</h2>
+          </div>
+
+          <div class="listen-block__item" style="border-top-color: #84c441;">
+            <div class="top">
+              <span>Online</span>
+              <span class="sound"><svg fill="#84c441" width="18" height="17"><use viewBox="0 0 18 17" href="img/sound.svg#sound"/></svg></span>
+            </div>
+            <div class="icon">
+              <img src="img/icon-sound-blue.svg" alt="Zachary Johnson" width="49" height="49">
+            </div>
+            <h2>Zachary Johnson</h2>
+          </div>
+
+          <div class="listen-block__item" style="border-top-color: #efda77;">
+            <div class="top">
+              <span>In-use</span>
+              <span class="sound"><svg fill="#efda77" width="18" height="17"><use viewBox="0 0 18 17" href="img/sound.svg#sound"/></svg></span>
+            </div>
+            <div class="icon">
+              <img src="img/icon-arrow-play.svg" alt="Ws LG Conf Rep" width="49" height="49">
+            </div>
+            <h2>Ws LG Conf Rep</h2>
+          </div> 
+
+          <div class="listen-block__item" style="border-top-color: #cfcfcf;">
+            <div class="top">
+              <span>Offline</span>
+              <span class="sound"><svg fill="#cfcfcf" width="18" height="17"><use viewBox="0 0 18 17" href="img/sound.svg#sound"/></svg></span>
+            </div>
+            <div class="icon">
+              <img src="img/icon-sound-gray.svg" alt="Jadkin Conf Room" width="49" height="49">
+            </div>
+            <h2>Jadkin Conf Room</h2>
+          </div>
+
+          <div class="listen-block__item" style="border-top-color: #84c441;">
+            <div class="top">
+              <span>Online</span>
+              <span class="sound"><svg fill="#84c441" width="18" height="17"><use viewBox="0 0 18 17" href="img/sound.svg#sound"/></svg></span>
+            </div>
+            <div class="icon">
+              <img src="img/icon-sound-blue.svg" alt="Wod Conf Room" width="49" height="49">
+            </div>
+            <h2>Wod Conf Room</h2>
+          </div>
+
+          <div class="listen-block__item" style="border-top-color: #cfcfcf;">
+            <div class="top">
+              <span>Offline</span>
+              <span class="sound"><svg fill="#cfcfcf" width="18" height="17"><use viewBox="0 0 18 17" href="img/sound.svg#sound"/></svg></span>
+            </div>
+            <div class="icon">
+              <img src="img/icon-sound-gray.svg" alt="Wod Conf Room" width="49" height="49">
+            </div>
+            <h2>Wod Conf Room</h2>
+          </div>
+
+        </div>
+      </div>
+		</div>
+	</main>
+</div>
+<script src="scripts/jquery-3.3.1.min.js"></script>	
+<script src="scripts/script.js"></script>
+</body>
+</html>
